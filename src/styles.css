@@ -1,5 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.884);
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
+  position: relative;
+  background: white;
+  width: 300px;
+  border-radius: 20px;
+  padding-bottom: 25px;
 }
 
+.App h1,
+.App button {
+  background: #03a9f4;
+  color: white;
+  font-weight: 600;
+}
+.App h1 {
+  padding: 20px;
+}
+.App ul {
+  position: relative;
+  padding: 20px;
+}
+.App ul li {
+  position: relative;
+  padding: 15px 0;
+  list-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.384);
+}
+
+.App ul li:last-child {
+  border-bottom: none;
+}
+li button {
+  border-radius: 45%;
+}
+button {
+  all: unset;
+  border-radius: 5px;
+  padding: 3px 6px;
+  text-align: center;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.884);
+  font-weight: bolder;
+  margin: 4px;
+  opacity: 0.6;
+}
+button:hover {
+  background-color: red;
+}
+input {
+  border-radius: 20px;
+  padding: 5px 50px;
+}
