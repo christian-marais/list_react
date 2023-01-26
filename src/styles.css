@@ -45,7 +45,7 @@ li button {
   border-radius: 45%;
 }
 
-// petits composants
+/* petits composants*/
 button {
   all: unset;
   border-radius: 5px;
