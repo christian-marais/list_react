@@ -5,11 +5,9 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: rgba(0, 0, 0, 0.884);
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .App {
-  font-family: sans-serif;
   text-align: center;
   position: relative;
   background: white;
@@ -42,24 +40,33 @@ body {
   border-bottom: none;
 }
 li button {
-  border-radius: 45%;
+  position: absolute;
+  border-radius: 50%;
+  transform: rotate(35deg) scale(-1, 1);
+  right: 0px;
+  top: 9px;
 }
-
-/* petits composants*/
+li button:hover {
+  background-color: red;
+}
 button {
   all: unset;
+  margin: 5px;
   border-radius: 5px;
-  padding: 3px 6px;
+  padding: 1px 11px;
   text-align: center;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.884);
   font-weight: bolder;
-  margin: 4px;
   opacity: 0.6;
+  text-transform: uppercase;
 }
+
 button:hover {
-  background-color: red;
+  background-color: green;
 }
 input {
   border-radius: 20px;
   padding: 5px 50px;
+  text-align: center;
+  margin-bottom: 10px;
 }
