@@ -28,8 +28,8 @@ export default function App() {
     itemsCopy.push(itemAAjouter);
     setItems(itemsCopy);
   };
-  const afficherItemPrefere = (itemNom) => {
-    alert(`j'aime trop ce item ${itemNom}`);
+  const afficherMessage = (itemNom) => {
+    alert(`Voici le message de l'item : ${itemNom}`);
   };
   //affichage
 
